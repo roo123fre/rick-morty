@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(85, 86, 88);
+}
+
+.character__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.character {
+    margin-top: 20px;
+    max-width: 480px;
+    display: flex;
+    background-color: rgb(39, 43, 51);
+    color: #ffffff;
+    gap: 5px;
+    align-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+    cursor: pointer;
+}
